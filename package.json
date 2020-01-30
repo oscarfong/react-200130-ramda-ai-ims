@@ -3,12 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "events": "^3.1.0",
     "fast-levenshtein": "2.0.6",
-    "ramda": "^0.26.1",
-    "ramda-fantasy": "^0.8.0",
+    "json-tree-view": "^0.4.12",
+    "ramda": "0.26.1",
+    "ramda-fantasy": "0.8.0",
     "react": "16.8.6",
-    "react-autocomplete": "^1.8.1",
-    "react-bootstrap": "^0.32.4",
+    "react-autocomplete": "1.8.1",
+    "react-bootstrap": "0.32.4",
     "react-dom": "16.8.6"
   },
   "scripts": {

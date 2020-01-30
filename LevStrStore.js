@@ -1,3 +1,4 @@
+// Source from LevStrStore.js
 import React, { Component } from 'react';
 
 import * as R from 'ramda';

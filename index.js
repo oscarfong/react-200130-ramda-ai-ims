@@ -11,6 +11,7 @@ import LevTest from './LevTest'
 import LevStrStore from './LevStrStore'
 
 import BTTest from './BTTest'
+import I20200130 from './I20200130'
 
 // Reference:
 // https://www.npmjs.com/package/fast-levenshtein
@@ -54,6 +55,8 @@ class App extends Component {
     return (
       <div>
         <Hello name={this.state.name} />
+        <I20200130/>
+        ---- pt 100 ----
         <p>
           <BTTest/>
         </p>
@@ -68,3 +71,5 @@ class App extends Component {
 }
 
 render(<App />, document.getElementById('root'));
+
+
